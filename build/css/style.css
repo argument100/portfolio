@@ -1,0 +1,128 @@
+.txt-c {
+  text-align: center; }
+
+body {
+  font-family: "PT Mono"; }
+
+header {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  color: #FFF; }
+  header .heroImage img {
+    height: 100vh;
+    width: 100vw; }
+  header h1 {
+    position: absolute;
+    top: 24%;
+    left: 20%;
+    font-size: 68px;
+    font-family: "Arial Black", "Helvetica Neue", Helvetica, sans-serif; }
+  header .menu {
+    position: absolute;
+    top: 5%;
+    right: 5%; }
+    header .menu li {
+      float: left;
+      list-style: none; }
+    header .menu a {
+      padding: 0 10px;
+      color: #FFF;
+      text-decoration: none; }
+  header .subTxt {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    margin-top: 65px;
+    line-height: 1.2;
+    font-size: 24px; }
+
+main {
+  color: #333; }
+  main .oddSec {
+    margin-top: 80px;
+    padding-bottom: 40px;
+    background-color: #F5F5F5; }
+  main h2 {
+    padding-top: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center; }
+  main .description {
+    margin-top: 40px;
+    text-align: center; }
+  main .devBox {
+    width: 100%;
+    margin-top: 40px;
+    padding: 0 10px; }
+    main .devBox__cont {
+      display: inline-block;
+      vertical-align: top;
+      width: 33%;
+      padding-top: 40px;
+      text-align: center;
+      opacity: 0; }
+      main .devBox__cont.cont1 {
+        transition: all 500ms ease-out; }
+      main .devBox__cont.cont2 {
+        transition: all 500ms ease-out 200ms; }
+      main .devBox__cont.cont3 {
+        transition: all 500ms ease-out 400ms; }
+      main .devBox__cont img {
+        width: 100px;
+        height: 100px; }
+      main .devBox__cont p {
+        margin-top: 10px;
+        font-size: 20px;
+        font-weight: bold; }
+      main .devBox__cont.anime {
+        opacity: 1;
+        padding-top: 0px; }
+  main .movieList {
+    width: 100vw;
+    margin-top: 40px;
+    padding: 0 10vw;
+    overflow: hidden; }
+    main .movieList__item {
+      width: 24vw;
+      float: left;
+      margin-right: 4vw;
+      margin-bottom: 4vw;
+      padding-bottom: 20px;
+      background-color: #FFF;
+      border: 1px solid #CCC; }
+      main .movieList__item:first-child {
+        margin-left: 0; }
+      main .movieList__item a {
+        color: #333;
+        text-decoration: none; }
+      main .movieList__item__img {
+        width: 100%;
+        height: 300px;
+        overflow: hidden; }
+        main .movieList__item__img img {
+          width: 100%; }
+      main .movieList__item__title {
+        width: 90%;
+        margin: 15px auto 0;
+        font-weight: bold;
+        text-align: center;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis; }
+      main .movieList__item__release {
+        width: 80%;
+        margin: 15px auto 0;
+        padding: 15px 0 0;
+        border-top: 1px solid #CCC;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center; }
+
+footer {
+  padding-bottom: 80px; }
+  footer h2 {
+    padding-top: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center; }
